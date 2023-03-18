@@ -30,6 +30,13 @@ const theme: Theme = {
       mt: [2, 3, 4],
       mb: ['2px', 1, 2],
     },
+    h2: {
+      fontSize: [4, 3, 2],
+      color: 'black',
+      fontFamily: 'heading',
+      mt: [2, 3, 4],
+      mb: ['2px', 1, 2],
+    },
   }
 };
 
@@ -173,6 +180,7 @@ const IndexPage: React.FC<PageProps> = () => {
     <main style={pageStyles}>
       <ThemeProvider theme={theme}>
         <Themed.h1>テーマド</Themed.h1>
+        <Themed.h2>h2</Themed.h2>
         <h1 style={headingStyles}>
           Congratulations
           <br />
