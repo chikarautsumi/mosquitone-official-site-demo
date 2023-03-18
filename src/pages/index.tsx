@@ -45,14 +45,6 @@ const pageStyles = {
   padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
-const headingAccentStyles = {
-  color: "#663399",
-}
 const paragraphStyles = {
   marginBottom: 48,
 }
@@ -181,11 +173,6 @@ const IndexPage: React.FC<PageProps> = () => {
       <ThemeProvider theme={theme}>
         <Themed.h1>テーマド</Themed.h1>
         <Themed.h2>h2</Themed.h2>
-        <h1 style={headingStyles}>
-          Congratulations
-          <br />
-          <span style={headingAccentStyles}>— you just made a Gatsby site! 🎉🎉🎉</span>
-        </h1>
         <p style={paragraphStyles}>
           Edit <code style={codeStyles}>src/pages/index.tsx</code> to see this page
           update in real-time. 😎
